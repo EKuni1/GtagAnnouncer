@@ -1,0 +1,75 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <AssemblyName>JoinLobbyMessage</AssemblyName>
+    <Description>My first Gorilla Tag mod</Description>
+    <Version>1.0.0</Version>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- Game assemblies -->
+    <Reference Include="Assembly-CSharp">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+
+    <!-- BepInEx -->
+    <Reference Include="BepInEx">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\BepInEx\core\BepInEx.dll</HintPath>
+    </Reference>
+
+    <!-- Photon dependencies -->
+    <Reference Include="PhotonRealtime">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonRealtime.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonUnityNetworking.dll</HintPath>
+    </Reference>
+    <Reference Include="PhotonUnityNetworking.Utilities">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\PhotonUnityNetworking.Utilities.dll</HintPath>
+    </Reference>
+    <Reference Include="ExitGames.Client.Photon">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\Photon3Unity3D.dll</HintPath>
+    </Reference>
+
+    <!-- Unity core modules -->
+    <Reference Include="UnityEngine">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputLegacyModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.InputLegacyModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+
+    <!-- Optional: Needed for coroutines and layout UI -->
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:\steam\steamapps\common\Gorilla Tag\Gorilla Tag_Data\Managed\UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="ComputerPlusPlus">
+        <HintPath>D:\steam\steamapps\common\Gorilla Tag\BepInEx\plugins\ComputerPlusPlus.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
